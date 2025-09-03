@@ -1,0 +1,23 @@
+{
+  "model": "logreg_en",
+  "params": {
+    "weighting": "subject",
+    "agg": "mean",
+    "D_default": 5,
+    "n_min": 30,
+    "threshold_for_penalty": 0.5
+  },
+  "K_subjects_val": 360,
+  "beta": 0.9,
+  "P_features": 20,
+  "M_max": 20.0,
+  "metric_mmax": 0.780909090909091,
+  "R": 0.9383300748965281,
+  "C_star": 0.911111110478395,
+  "P_tot": 0.5611111172067901,
+  "wR": 0.4096080727049959,
+  "wC_star": 0.5903919272950041,
+  "C_raw": 0.9222602180347323,
+  "Score_base": 9,
+  "AI_Completeness_Score": 8
+}

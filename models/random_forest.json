@@ -1,0 +1,32 @@
+{
+  "model_name": "random_forest",
+  "features": [
+    "age",
+    "vent_flag",
+    "pressors_flag",
+    "hr_min",
+    "hr_max",
+    "map_min",
+    "map_max",
+    "resp_rate_max",
+    "temp_max",
+    "spo2_min",
+    "albumin_min",
+    "lactate_max",
+    "bun_max",
+    "creatinine_max",
+    "bilirubin_max",
+    "hemoglobin_min",
+    "platelets_min",
+    "sodium_min",
+    "potassium_max",
+    "aniongap_max"
+  ],
+  "categoricals": [],
+  "label": "hospital_expire_flag",
+  "threshold": 0.3,
+  "class_ratio": {
+    "neg": 833,
+    "pos": 367
+  }
+}

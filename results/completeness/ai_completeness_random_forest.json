@@ -1,0 +1,23 @@
+{
+  "model": "random_forest",
+  "params": {
+    "weighting": "subject",
+    "agg": "mean",
+    "D_default": 5,
+    "n_min": 30,
+    "threshold_for_penalty": 0.5
+  },
+  "K_subjects_val": 360,
+  "beta": 0.9,
+  "P_features": 20,
+  "M_max": 20.0,
+  "metric_mmax": 0.7478991596638656,
+  "R": 0.9243834103578987,
+  "C_star": 0.9104166660344328,
+  "P_tot": 0.8583333353009259,
+  "wR": 0.45772826363500774,
+  "wC_star": 0.5422717363649923,
+  "C_raw": 0.9168096396622469,
+  "Score_base": 9,
+  "AI_Completeness_Score": 8
+}

@@ -1,0 +1,2 @@
+metric_type,M_full,M_final,QI,QP,wI,wP,S_raw,AI_Informativeness_Score,V_all_after_redundancy,V_final,k_elbow
+auroc,0.6848727272727273,0.6848727272727273,0.9999917270830138,0.9999985398768266,0.5,0.5,0.9999951334799202,10,19,19,19

@@ -1,0 +1,30 @@
+{
+  "features": {
+    "age":            { "min": 18,   "max": 100,  "tolerance_pct_of_true": 0.05 },
+
+    "vent_flag":      { "min": 0,    "max": 1,    "tolerance_pct_of_true": 0.00 },
+    "pressors_flag":  { "min": 0,    "max": 1,    "tolerance_pct_of_true": 0.00 },
+
+    "hr_min":         { "min": 30,   "max": 160,  "tolerance_pct_of_true": 0.05 },
+    "hr_max":         { "min": 50,   "max": 220,  "tolerance_pct_of_true": 0.05 },
+
+    "map_min":        { "min": 30,   "max": 120,  "tolerance_pct_of_true": 0.05 },
+    "map_max":        { "min": 50,   "max": 160,  "tolerance_pct_of_true": 0.05 },
+
+    "resp_rate_max":  { "min": 8,    "max": 60,   "tolerance_pct_of_true": 0.05 },
+    "temp_max":       { "min": 34.0, "max": 42.0, "tolerance_pct_of_true": 0.05 },
+    "spo2_min":       { "min": 50,   "max": 100,  "tolerance_pct_of_true": 0.05 },
+
+    "albumin_min":    { "min": 0.5,  "max": 6.0,  "tolerance_pct_of_true": 0.05 },
+    "lactate_max":    { "min": 0.5,  "max": 20.0, "tolerance_pct_of_true": 0.05 },
+    "bun_max":        { "min": 2,    "max": 150,  "tolerance_pct_of_true": 0.05 },
+    "creatinine_max": { "min": 0.2,  "max": 10.0, "tolerance_pct_of_true": 0.05 },
+    "bilirubin_max":  { "min": 0.1,  "max": 30.0, "tolerance_pct_of_true": 0.05 },
+    "hemoglobin_min": { "min": 4,    "max": 20,   "tolerance_pct_of_true": 0.05 },
+    "platelets_min":  { "min": 5,    "max": 1000, "tolerance_pct_of_true": 0.05 },
+    "sodium_min":     { "min": 110,  "max": 170,  "tolerance_pct_of_true": 0.05 },
+    "potassium_max":  { "min": 2.0,  "max": 8.0,  "tolerance_pct_of_true": 0.05 },
+    "aniongap_max":   { "min": 2,    "max": 40,   "tolerance_pct_of_true": 0.05 }
+  },
+  "weights": {}
+}

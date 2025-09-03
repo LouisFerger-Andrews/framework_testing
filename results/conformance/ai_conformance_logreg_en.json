@@ -1,0 +1,25 @@
+{
+  "model": "logreg_en",
+  "C_empirical": 1.0,
+  "E_nonconforming": 0,
+  "N_checked": 6945,
+  "M0_baseline": 0.768509090909091,
+  "delta_max": 0.19585454545454561,
+  "R_robustness": 0.0,
+  "wC": 9.999980000039998e-07,
+  "wR": 0.999999000002,
+  "S_raw": 9.999980000039998e-07,
+  "AI_Conformance_Score": 0,
+  "metric_type": "auroc",
+  "psi_levels": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "params": {
+    "cap_E_over_N": 0.05,
+    "test_size": 0.3,
+    "random_state": 42
+  }
+}
