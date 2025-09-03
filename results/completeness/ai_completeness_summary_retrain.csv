@@ -1,4 +1,0 @@
-model,params,K_subjects_val,beta,P_features,M_max,metric_mmax,R,C_star,P_tot,wR,wC_star,C_raw,Score_base,AI_Completeness_Score
-logreg_en,"{'weighting': 'subject', 'agg': 'mean', 'D_default': 5, 'n_min': 30, 'threshold_for_penalty': 0.5}",360,0.9,20,20.0,0.780909090909091,0.9383300748965281,0.911111110478395,0.5611111172067901,0.4096080727049959,0.5903919272950041,0.9222602180347323,9,8
-random_forest,"{'weighting': 'subject', 'agg': 'mean', 'D_default': 5, 'n_min': 30, 'threshold_for_penalty': 0.5}",360,0.9,20,20.0,0.7478991596638656,0.9243834103578987,0.9104166660344328,0.8583333353009259,0.45772826363500774,0.5422717363649923,0.9168096396622469,9,8
-gbm,"{'weighting': 'subject', 'agg': 'mean', 'D_default': 5, 'n_min': 30, 'threshold_for_penalty': 0.5}",360,0.9,20,20.0,0.7105508870214753,0.9356667738701676,0.9104166660344328,0.7638888921682099,0.417975753476109,0.582024246523891,0.920970598882427,9,8
